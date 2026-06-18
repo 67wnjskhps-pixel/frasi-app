@@ -228,7 +228,7 @@ function ManageView({quotes,update}){
           <textarea placeholder="Il testo del versetto... *" value={form.text}
             onChange={e=>setForm({...form,text:e.target.value})} rows={3}
             className="inp w-full border border-gray-200 rounded-xl p-3 text-sm resize-none transition-colors mb-2"/>
-          <input placeholder="Libro (es: Giovanni 3 16) (opzionale)" value={form.author}
+          <input placeholder="Libro (es: Giovanni 3:16)" value={form.author}
             onChange={e=>setForm({...form,author:e.target.value})}
             className="inp w-full border border-gray-200 rounded-xl p-3 text-sm transition-colors mb-2"/>
           <textarea placeholder="Approfondimento: riflessioni, contesto, note personali..." value={form.explanation}
